@@ -8,6 +8,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.large"
   key_name      =     "${aws_key_pair.us-west-2-key.key_name}"
   security_groups = ["${aws_security_group.allow_tls.name}"]
+  user_data = "${file("user_data.sh")}"
   availability_zone = "us-west-2a"
   tags = {
     Name = "HelloWorld"
