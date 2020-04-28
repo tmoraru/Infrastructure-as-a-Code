@@ -1,4 +1,4 @@
-resource "aws_route53_record" "route53" {
+resource "aws_route53_record" "www" {
   zone_id = "Z2C2TTKT34Z4V4"
   name    = "www.tatianamoraru.com"
   type    = "A"
