@@ -38,8 +38,10 @@ s3_folder_type                  =   	"tools"
 s3_tfstate_file                 =   	"project.tfstate"
 
 # Softcoded tags
-
-Environment = "Dev"
-Department = "IT"
-Team       = "Infrastructure"
-Created_by = "Tatiana"
+tags = {
+    Environment = "Dev"
+    Department = "IT"
+    Team = "Infrastructure"
+    Created_by = "Tatiana"
+    
+}
