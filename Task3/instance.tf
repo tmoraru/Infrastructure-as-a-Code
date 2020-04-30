@@ -5,11 +5,6 @@ resource "aws_instance" "dev" {
   security_groups = ["${aws_security_group.allow_tls.name}"]
   user_data = "${file("user_data.sh")}"
   availability_zone = "us-west-2a"
- tags =  {
-    Environment = "${var.Environment}"
-      Department = "${var.Department}"
-      Team = "${var.Team}"
-      Created_by = "${var.Created_by}"
-   }
+ tags = "${var.tags}"
   
 }
