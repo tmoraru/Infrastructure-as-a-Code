@@ -13,7 +13,6 @@ variable "az1" {}
 variable "az2" {}
 variable "az3" {}
 
-variable "Environment" {}
-variable "Department" {}
-variable "Team" {}
-variable "Created_by" {} 
+variable "tags" {
+  type = "map"
+}
