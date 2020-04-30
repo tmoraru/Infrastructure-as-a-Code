@@ -1,6 +1,6 @@
 <img width="650" alt="Screenshot_848" src="https://user-images.githubusercontent.com/13994900/80716016-c4e44380-8abc-11ea-8dbd-99f80acd9c69.png">
-### terraform init
-### terraform apply --var-file vpc.tfvars
+
+## terraform apply --var-file vpc.tfvars
 
 <img width="550" alt="Screenshot_842" src="https://user-images.githubusercontent.com/13994900/80715912-a54d1b00-8abc-11ea-8bae-65c0ceb66df9.png">
 
