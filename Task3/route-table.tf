@@ -13,7 +13,7 @@ resource "aws_route_table" "dev" {
       Created_by = "${var.Created_by}"
    }
 }
-
+ 
 #Attached from subnet association
 resource "aws_route_table_association" "dev1" {
   subnet_id      = "${aws_subnet.dev1.id}"
