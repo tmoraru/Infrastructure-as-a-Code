@@ -6,10 +6,5 @@ resource "aws_nat_gateway" "ngw" {
   subnet_id     = "${aws_subnet.dev1.id}"
 
 
-  tags = {
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+  tags = "${var.tags}"
 }
