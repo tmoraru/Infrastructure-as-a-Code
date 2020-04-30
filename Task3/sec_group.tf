@@ -27,10 +27,5 @@ resource "aws_security_group" "allow_tls" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  tags =  {
-    Environment = "${var.Environment}"
-      Department = "${var.Department}"
-      Team = "${var.Team}"
-      Created_by = "${var.Created_by}"
-   }
+ tags = "${var.tags}"
 }
