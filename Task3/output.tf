@@ -5,7 +5,7 @@ output "VPC_ID" {
 output "Subnet1" {
   value = "${aws_subnet.dev1.id}"
 }
-
+ 
 output "Subnet2" {
   value = "${aws_subnet.dev2.id}"
 }
