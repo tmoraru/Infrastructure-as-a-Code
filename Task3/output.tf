@@ -12,7 +12,7 @@ output "Subnet2" {
 
 output "Subnet3" {
   value = "${aws_subnet.dev3.id}"
-}
+} 
 
 output "Private_Subnet1" {
   value = "${aws_subnet.dev_private1.id}"
