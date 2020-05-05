@@ -1,7 +1,7 @@
-variables "user" {}
+variable "user" {}
 variable "region" {}
-variables "key_name" {}
-variables "ami" {}
+variable "key_name" {}
+variable "ami" {}
 variable "sec_group_name" {}
 variable "ingress_cidr_blocks" {type = "list"}
 variable "egress_cidr_blocks" {type = "list"}
