@@ -12,7 +12,7 @@ resource "aws_instance" "jenkins_server" {
   availability_zone      = "${var.region}${var.az1}"
   vpc_security_group_ids = ["${aws_security_group.jenkins_sg.id}"]
   subnet_id              = "${aws_subnet.cidr_block1_public.id}"
-  key_name               = "${aws_key_pair.virginia-key.key_name}"
+  key_name               = "${aws_key_pair.key.key_name}"
   tags                   = "${var.tags}"
 
   
