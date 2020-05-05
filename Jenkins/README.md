@@ -3,3 +3,7 @@ On this folder you can find how to install Jenkins through terraform!
 
 * terraform init 
 <img width="500" alt="Screenshot_858" src="https://user-images.githubusercontent.com/13994900/81082190-8e416b00-8eb8-11ea-8edc-ac26367188b9.png">
+
+* terraform apply --var-file jenkins.tfvars
+
+<img width="500" alt="Screenshot_859" src="https://user-images.githubusercontent.com/13994900/81082597-1d4e8300-8eb9-11ea-97fa-9dc359acc37a.png">
