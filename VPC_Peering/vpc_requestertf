@@ -1,0 +1,19 @@
+#Disable if you are accepter not req
+resource "aws_vpc" "peer" {
+ provider   = "aws.peer"
+cidr_block = "192.168.0.0/16"
+ }
+data "aws_caller_identity" "peer" {
+provider = "aws.peer"
+}
+#Requester's side of the connection.
+resource "aws_vpc_peering_connection" "peer" {
+vpc_id        = "${aws_vpc.task.id}"
+peer_vpc_id   = "vpc-0f3c5dfa20b159c5c"
+peer_owner_id = "353665009533"
+peer_region   = "eu-west-2"
+auto_accept   = false
+tags = {
+Side = "Requester"
+}
+}
