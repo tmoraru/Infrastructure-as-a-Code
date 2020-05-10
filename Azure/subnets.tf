@@ -11,7 +11,6 @@ resource "azurerm_subnet" "private1" {
 } 
 
  
-
 resource "azurerm_subnet" "private2" { 
 
   name = "private2" 
@@ -37,3 +36,5 @@ resource "azurerm_subnet" "private3" {
   address_prefix = "10.0.3.0/24" 
 
 } 
+
+
