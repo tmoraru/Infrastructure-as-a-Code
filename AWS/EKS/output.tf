@@ -10,11 +10,11 @@ output Sec_group {
     value = module.my-cluster.cluster_security_group_id
 }
 
-# output "Name" {
-#     value = module.my-cluster.cluster_name
-# }
+output "NAME" {
+    value = module.my-cluster.cluster_name
+}
 
-# output "Region" {
-#     value = module.my-cluster.cluster_region
-# }
+output "REGION" {
+    value = module.my-cluster.cluster_region
+}
 
