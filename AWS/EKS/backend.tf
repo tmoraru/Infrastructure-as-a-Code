@@ -1,7 +1,7 @@
-terraform {
-  backend "s3" {
-    bucket = "taniusha-bucket-eks"
-    key    = "path/to/my/key"
-    region = "us-east-1"
-  }
-}
+terraform { 
+backend "s3" { 
+bucket = "taniusha-bucket-eks" 
+key = "application/us-east-1/state/dev/infrastructure.tfstate.json" 
+region = "us-east-1" 
+  } 
+} 

@@ -11,10 +11,10 @@ output Sec_group {
 }
 
 output "NAME" {
-    value = module.my-cluster.cluster_name
+    value = var.cluster_name
 }
 
 output "REGION" {
-    value = module.my-cluster.cluster_region
+    value = var.region
 }
 
