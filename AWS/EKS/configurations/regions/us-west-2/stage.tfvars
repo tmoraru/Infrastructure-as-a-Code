@@ -4,14 +4,14 @@ s3_bucket = "taniusha-bucket-eks"                   #Will be used to set backend
 s3_folder_project = "application"                    #Will be used to set backend.tf
 s3_folder_region = "us-east-1"                       #Will be used to set backend.tf
 s3_folder_type = "state"                             #Will be used to set backend.tf
-s3_tfstate_file = "infrastructure.tfstate_ohio.json"      #Will be used to set backend.tf
-vpc_id = "vpc-0b911bbab71385784"
-subnet1 = "subnet-0ccc9f91b9a0cd9a5"
-subnet2 = "subnet-04ea553394fed21fb"
-subnet3 = "subnet-00ff35ff2fdd324ba"
+s3_tfstate_file = "infrastructure.tfstate_oregon.json"      #Will be used to set backend.tf
+vpc_id = "vpc-0e23b9d5ec9623c7e"
+subnet1 = "subnet-05214452bb558d244"
+subnet2 = "subnet-08b588ce024fe12e5"
+subnet3 = "subnet-0c1e0c27439e9c5a4"
 
 
-cluster_name = "ohio-cluster"
+cluster_name = "oregon-cluster"
 instance_type = "t2.micro"
 asg_max_size = "48" 
 asg_min_size = "3"
