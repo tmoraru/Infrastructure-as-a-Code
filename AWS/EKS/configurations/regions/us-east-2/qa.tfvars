@@ -11,7 +11,7 @@ subnet2 = "subnet-04ea553394fed21fb"
 subnet3 = "subnet-00ff35ff2fdd324ba"
 
 
-cluster_name = "ohio-cluster"
+cluster_name = "ohio-cluster1"
 instance_type = "t2.micro"
 asg_max_size = "48" 
 asg_min_size = "3"
