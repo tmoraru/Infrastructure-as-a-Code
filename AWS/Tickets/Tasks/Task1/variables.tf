@@ -1,0 +1,12 @@
+variable "vpc_cidr" {}
+variable "cidr_block_pub1" {}
+variable "cidr_block_pub2" {}
+variable "cidr_block_pub3" {}
+variable "cidr_block_priv1" {}
+variable "cidr_block_priv2" {}
+variable "cidr_block_priv3" {}
+variable "ami_instance" {}
+variable "az1" {}
+variable "az2" {}
+variable "az3" {}
+variable "instance_type_1" {}
