@@ -4,7 +4,6 @@ resource "aws_launch_configuration" "as_conf" {
   instance_type = "t2.micro"
 }
 
-
 # It's configuration, you tell to your system you want to create an ami with specific configuraiton in it.
 
 resource "aws_autoscaling_group" "bar" {
@@ -18,12 +17,10 @@ resource "aws_autoscaling_group" "bar" {
     "us-east-1b",
     "us-east-1c",
   ]
-
-# You have to tell what is the minum and maximum size 
-  min_size = 1
-  max_size = 2
-
-# 
+  # You have to tell what is the minum and maximum size 
+  min_size = 1       # minimum instances
+  max_size = 2       # maximum instances
+  # 
   lifecycle {
     create_before_destroy = true
   }
