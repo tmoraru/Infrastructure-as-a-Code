@@ -4,4 +4,4 @@ resource "aws_vpc" "dev" {
 
 tags = "${var.tags}"
 }
-© 2020 GitHu
+

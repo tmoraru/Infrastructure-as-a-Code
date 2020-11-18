@@ -21,11 +21,11 @@ output "private_subnets" {
 }
 
 output "igw_id" {
-  value = "${aws_internet_gateway.dev.id}   
+  value = "${aws_internet_gateway.dev.id} "  
 }
 
 output "ngw_id" {
-   value = "${aws_nat_gateway.ngw.id}        
+   value = "${aws_nat_gateway.ngw.id}"        
 }
 
 output "region" {
