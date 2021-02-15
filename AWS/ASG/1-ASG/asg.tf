@@ -25,3 +25,4 @@ resource "aws_autoscaling_group" "bar" {
     create_before_destroy = true
   }
 }
+ 
