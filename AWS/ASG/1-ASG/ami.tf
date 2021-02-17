@@ -3,3 +3,4 @@ data "aws_ami" "image" {
   owners      = ["137112412989"] # ubuntu machine - 099720109477    #Canonical
 }
  
+ 
