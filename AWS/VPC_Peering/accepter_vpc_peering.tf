@@ -5,4 +5,4 @@ auto_accept               = true
 tags = {
 Side = "Accepter"
 }
-}
+} 
